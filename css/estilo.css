@@ -1,3 +1,11 @@
+/* Reset CSS */
+* {
+    /* Margem = Externa */
+    margin: 0%;
+    
+}
+
+
 
 body {
 /*Cor de Fundo"*/
@@ -5,4 +13,24 @@ background-color: lavender;
 /*Cor Textos"*/
 color: purple;
 
+}
+/*Seletor para os <A> */
+a {
+    /*  Propriedade e VALOR */
+    text-decoration: none;
+    color: black;
+    
+}
+
+    
+/* HEADER = Cabeçalho */
+header {
+    /* ROW */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dccfe0af;
+    /* Largura ou Comprimento */
+    width: 100%;
+    
 }
