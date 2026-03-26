@@ -9,21 +9,22 @@
 
 
 body {
-/*Cor de Fundo"*/
-background-color: lavender;
-/*Cor Textos"*/
-color: purple;
+    /*Cor de Fundo"*/
+    background-color: lavender;
+    /*Cor Textos"*/
+    color: purple;
 
 }
+
 /*Seletor para os <A> */
 a {
     /*  Propriedade e VALOR */
     text-decoration: none;
     color: black;
-    
+
 }
 
-    
+
 /* HEADER = Cabeçalho */
 header {
     /* ROW */
@@ -33,5 +34,12 @@ header {
     background-color: #dccfe0af;
     /* Largura ou Comprimento */
     width: 100%;
-    
+}
+
+/* UL sistema lista Topicos */
+.menu {
+    list-style: none;
+    /* Lista Horizontal */
+    display: flex;
+    gap: 1rem ;
 }
