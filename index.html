@@ -21,51 +21,54 @@
     <header>
 
         <!-- Logo -->
-        <div>
-            <a href="http://shein.com">
+        <div class="header-logo">
+            <a href="#home">
                 Yasmin Clinica
             </a>
         </div>
 
         <!-- Menu Desktop / PC -->
-        <nav>
-            <ul>
+        <nav class="menu-desktop">
+            <ul class="menu">
                 <li>
-                    <a href="">
-                        <span> Home </span>
+                    <!-- Cria Links -->
+                       <a href="#home" class="menu-link active">
+                        <span class="menu-texto"> Home </span>
                     </a>
                 </li>
 
                 <li>
-                    <a href="">
-                        <span> Consultas </span>
+                    <a href="#Consultas" class="menu-link">
+                        <span class="menu-texto"> Consultas </span>
+
+                        
                     </a>
                 </li>
 
                 <li>
-                    <a href="">
-                        <span>Sobre</span>
+                    <a href="#sobre"class="menu-link">
+                        <span class="menu-texto" >Sobre</span>
                     </a>
                 </li>
 
                 <li>
-                    <a href="">
-                        <span>Contato</span>
+                    <a href="#contato" class="menu-link">
+                        <span class="menu-texto" >Contato</span>
                     </a>
                 </li>
 
             </ul>
         </nav>
 
-        <!-- Icone trocar Cor Tema -->
-        <div>
+        <!-- Icone Sol ou Lua -->
+        <div class="header-toggle">
 
-            <i class="bi bi-sun"></i>
+            <i class="bi bi-sun" id="toggleTheme"></i>
 
 
 
-            <!-- Icone trocar Cor Tema -->
-            <button>
+            <!-- Botão Hamburger -->
+            <button class="btn-menu-mobile" id="menuHamburger">
                 <i class="bi bi-list"></i>
             </button>
         </div>
