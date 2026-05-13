@@ -1,45 +1,40 @@
 /* Reset CSS */
 * {
-    /* Margem = Externa */
-    margin: 0%;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-
 }
-
-
 
 body {
-    /*Cor de Fundo"*/
     background-color: lavender;
-    /*Cor Textos"*/
     color: purple;
-
+    font-family: Arial, sans-serif;
 }
 
-/*Seletor para os <A> */
+/* Links */
 a {
-    /*  Propriedade e VALOR */
     text-decoration: none;
     color: black;
-
 }
 
-
-/* HEADER = Cabeçalho */
+/* Cabeçalho */
 header {
-    /* ROW */
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #dccfe0af;
-    /* Largura ou Comprimento */
     width: 100%;
+    padding: 1rem 2rem;
 }
 
-/* UL sistema lista Topicos */
+/* Menu */
 .menu {
     list-style: none;
-    /* Lista Horizontal */
     display: flex;
-    gap: 1rem ;
+    gap: 1rem;
+}
+
+/* Logo */
+.header-logo img {
+    width: 180px;
 }
